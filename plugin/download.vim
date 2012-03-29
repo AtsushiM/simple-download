@@ -5,7 +5,6 @@
 
 let g:simple_download_PluginDir = expand('<sfile>:p:h:h').'/'
 let g:simple_download_TemplateDir = g:simple_download_PluginDir.'template/'
-let g:simple_download_SubDir = g:simple_download_PluginDir.'sub/'
 let g:simple_download_DownloadBeforePath = ''
 
 if !exists("g:simple_download_DefaultConfigDir")
